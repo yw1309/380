@@ -2,25 +2,22 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
  	viewBox="0 0 800 500" style="enable-background:new 0 0 800 500;" xml:space="preserve">
- 
+ 	
 	<style type="text/css">
 		<!--/* background styles */-->
 		#sky {fill:url(#daytime);}
 		#sky:hover {fill: navy;}
 		#sky:active{visibility: hidden;}
 		#ground {fill:url(#savannah);}
-
 		<!--/* midground styles */-->
 		#midground {transform:translate(580px, 45px);width:10px;height:auto;}
-		#tiny:hover, #tree:hover {transform:translate(580px, 45px);-ms-transform:scale(1.2,1.4);-webkit-transform:scale(1.2,1.4);transform:scale(1.2,1.4);}
-
+		#tiny:hover, #tree:hover {transform:translate(580px, 45px);-ms-transform:scale(1.2,1.4);-webkit-transform:scale(1.2,1.4);transform:scale(1.2,1.4);}	
 		<!--/* foreground styles */-->
 		#short {transform:translate(210px, 90px);}
 		#short:hover {fill:url(#partyhard);}
 		#short:active {fill:url(#partyhard2);}
 		#tall:hover {fill: #bbb;}
 		#tall:active {filter: url(#blur);}
-
 		<!--/* furtherground styles */-->
 		#star{fill: white;}
 		#night {fill: navy;}
@@ -31,31 +28,25 @@
 			<stop offset="00%" stop-color="blue" stop-opacity="1" />
 			<stop offset="100%" stop-color="navy" stop-opacity="1" />
 		</linearGradient>
-
 		<linearGradient id="partyhard" x1="0%" y1="0%" x2="0%" y2="100%">
 			<stop offset="0%" stop-color="magenta" stop-opacity="1" />
 			<stop offset="100%" stop-color="cyan" stop-opacity="1" />
 		</linearGradient>
-
 		<linearGradient id="partyhard2" x1="0%" y1="0%" x2="0%" y2="100%">
 			<stop offset="0%" stop-color="lime" stop-opacity="1" />
 			<stop offset="100%" stop-color="cyan" stop-opacity="1" />
 		</linearGradient>
-
 		<linearGradient id="savannah" x1="0%" y1="0%" x2="0%" y2="100%">
 			<stop offset="30%" stop-color="#4D0000" stop-opacity="0.8" />
 			<stop offset="100%" stop-color="sienna" stop-opacity="0.8" />
 		</linearGradient>
-
 		<filter id="blur">
 			<feGaussianBlur in="SourceGraphic" stdDeviation="26" />
 		</filter>
 	</defs>
  	 
- 	 
  	 <g id="furtherground">
 			<rect id="night" x="0" y="0" width="800" height="300" />
-
 			<circle id="star" cx="350" cy="20" r="3" />
 	 		<circle id="star" cx="144" cy="270" r="3" />
 			<circle id="star" cx="14" cy="40" r="3" />
