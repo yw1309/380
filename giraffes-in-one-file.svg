@@ -1,87 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
- 	 viewBox="0 0 800 500" style="enable-background:new 0 0 800 500;" xml:space="preserve">
+ 	viewBox="0 0 800 500" style="enable-background:new 0 0 800 500;" xml:space="preserve">
  
  <style type="text/css">
- <!--/* general layout styles*/-->
-#container {
-	width: 800px;
-	height: 100%;
-	margin: auto;
-}
-
-#shapes {
-	height: 500px;
-	position: absolute;
-	top: 50%;
-	margin-top: -250px;
-}
-
-
 <!--/* background styles */-->
-#sky {
-	fill:url(#daytime);
-}
-
-#sky:hover {
-	fill: navy;
-}
-
-#sky:active{
-	visibility: hidden;
-}
-
-#ground {
-	fill:url(#savannah);
-}
-
+#sky {fill:url(#daytime);}
+#sky:hover {fill: navy;}
+#sky:active{visibility: hidden;}
+#ground {fill:url(#savannah);}
 
 <!--/* midground styles */-->
-#midground {
-	transform:translate(580px, 45px);
-	width: 10px;
-	height: auto;
-}
-
-#tiny:hover, #tree:hover {
-	transform:translate(580px, 45px);
-	-ms-transform: scale(1.2,1.4);
-	-webkit-transform: scale(1.2,1.4);
-	transform: scale(1.2,1.4);
-}
-
+#midground {transform:translate(580px, 45px);width:10px;height:auto;}
+#tiny:hover, #tree:hover {transform:translate(580px, 45px);-ms-transform:scale(1.2,1.4);-webkit-transform:scale(1.2,1.4);transform:scale(1.2,1.4);}
 
 <!--/* foreground styles */-->
-#short {
-	transform:translate(210px, 90px);
-}
-
-#short:hover { 
-	fill:url(#partyhard);
-}
-
-#short:active { 
-	fill:url(#partyhard2);
-}
-
-#tall:hover { 
-	fill: #bbb;
-}
-
-#tall:active { 
-	filter: url(#blur);
-}
-
+#short {transform:translate(210px, 90px);}
+#short:hover {fill:url(#partyhard);}
+#short:active {fill:url(#partyhard2);}
+#tall:hover {fill: #bbb;}
+#tall:active {filter: url(#blur);}
 
 <!--/* furtherground styles */-->
-#star{
-	fill: white;
-}
-#night {
-	fill: navy;
-}
-
+#star{fill: white;}
+#night {fill: navy;}
  </style>
  
  	 <defs>
