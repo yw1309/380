@@ -1,0 +1,77 @@
+/* general layout styles*/
+#container {
+	width: 800px;
+	height: 100%;
+	margin: auto;
+}
+
+#shapes {
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	margin-top: -250px;
+}
+
+
+/* background styles */
+#sky {
+	fill:url(#daytime);
+}
+
+#sky:hover {
+	fill: navy;
+}
+
+#sky:active{
+	visibility: hidden;
+}
+
+#ground {
+	fill:url(#savannah);
+}
+
+
+/* midground styles */
+#midground {
+	transform:translate(580px, 45px);
+	width: 10px;
+	height: auto;
+}
+
+#tiny:hover, #tree:hover {
+	transform:translate(580px, 45px);
+	-ms-transform: scale(1.2,1.4);
+	-webkit-transform: scale(1.2,1.4);
+	transform: scale(1.2,1.4);
+}
+
+
+/* foreground styles */
+#short {
+	transform:translate(210px, 90px);
+}
+
+#short:hover { 
+	fill:url(#partyhard);
+}
+
+#short:active { 
+	fill:url(#partyhard2);
+}
+
+#tall:hover { 
+	fill: #bbb;
+}
+
+#tall:active { 
+	filter: url(#blur);
+}
+
+
+/* furtherground styles */
+#star{
+	fill: white;
+}
+#night {
+	fill: navy;
+}
