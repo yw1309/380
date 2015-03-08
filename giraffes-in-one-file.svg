@@ -25,7 +25,7 @@
 					</linearGradient>
 
 					<filter id="blur">
-						<feGaussianBlur in="SourceGraphic" stdDeviation="26">
+						<feGaussianBlur in="SourceGraphic" stdDeviation="26" />
 						</filter>
 					</defs>
  	 
